@@ -1,0 +1,45 @@
+.worldClock {
+    width: 800px;
+    margin: 30px auto;
+}
+
+.worldClock td {
+    margin: 5px;
+    vertical-align: bottom;
+}
+.worldClock div button {
+    width: 100px; 
+}
+.worldClock p {
+    margin: 0px 0px 5px 0px;
+}
+
+.clock {
+    width: 110px;
+    margin: 15px 10px;
+    float: left;
+    position: relative;
+    text-align: center;
+
+}
+.clock p {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.clock div {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    border: 1px #999 solid;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 2px 5px;
+    color: #999;
+    cursor: pointer;
+}
+.clock div:hover {
+    color: rgb(250, 144, 149);
+    border: 1px rgb(250, 144, 149) solid;
+}

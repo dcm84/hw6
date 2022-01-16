@@ -1,0 +1,98 @@
+.worldClock {
+    width: 800px;
+    margin: 30px auto;
+}
+
+.worldClock td {
+    margin: 5px;
+    vertical-align: bottom;
+}
+.worldClock div button {
+    width: 100px; 
+}
+.worldClock p {
+    margin: 0px 0px 5px 0px;
+}
+
+.clock {
+    width: 110px;
+    margin: 15px 10px;
+    float: left;
+    position: relative;
+    text-align: center;
+
+}
+.clock p {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.clock div {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+    border: 1px #999 solid;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 2px 5px;
+    color: #999;
+    cursor: pointer;
+}
+.clock div:hover {
+    color: rgb(250, 144, 149);
+    border: 1px rgb(250, 144, 149) solid;
+}
+
+
+div.notes{
+    width: 800px;
+    margin: 100px auto;
+    clear:both;
+}
+
+div h2 {
+
+}
+div.notes img{
+    cursor: pointer;
+    vertical-align: sub;
+}
+
+div.notes div{
+    border: 1px #999 solid;
+    padding: 5px;
+    width: 180px;
+    margin: 0px 20px 15px 0px;
+    float: left;
+    position: relative;
+}
+div.notes div img {
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    cursor: pointer;
+}
+
+div.notes h3 {
+    clear: both;
+}
+
+div.notes div.newMessage{
+    width: auto;
+    position: relative;
+}
+
+div.notes div.newMessage textarea {
+    border: 0px #fff solid;
+    width: 400px;
+    height: 150px;
+}
+
+div.notes div.newMessage img {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    top: auto;
+    cursor: pointer;
+}
